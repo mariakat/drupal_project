@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dae733dfc146fafe0cc21263b9f11a4d",
+    "content-hash": "89ae4183629aa108c59c4d8794ecfa63",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1788,6 +1788,61 @@
             "time": "2020-10-07T19:33:16+00:00"
         },
         {
+            "name": "drupal/phpmailer_smtp",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/phpmailer_smtp.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/phpmailer_smtp-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "f7339bfff04ad236593d4e0e524f2cc50f9a8ce8"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9",
+                "phpmailer/phpmailer": "^6.1.7"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1601512520",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ian McLean (imclean)",
+                    "homepage": "http://drupal.org/u/imclean"
+                }
+            ],
+            "description": "Uses the PHPMailer library to send emails via SMTP.",
+            "homepage": "https://drupal.org/project/phpmailer_smtp",
+            "keywords": [
+                "drupal",
+                "email",
+                "mail",
+                "mail system",
+                "mailsystem",
+                "phpmailer",
+                "smtp"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/phpmailer_smtp",
+                "issues": "https://www.drupal.org/project/issues/phpmailer_smtp"
+            }
+        },
+        {
             "name": "drush/drush",
             "version": "10.3.6",
             "source": {
@@ -3137,6 +3192,79 @@
                 "source": "https://github.com/pear/PEAR_Exception"
             },
             "time": "2019-12-10T10:24:42+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "917ab212fa00dc6eacbb26e8bc387ebe40993bc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/917ab212fa00dc6eacbb26e8bc387ebe40993bc1",
+                "reference": "917ab212fa00dc6eacbb26e8bc387ebe40993bc1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "^1.2",
+                "friendsofphp/php-cs-fixer": "^2.2",
+                "phpunit/phpunit": "^4.8 || ^5.7"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "support": {
+                "issues": "https://github.com/PHPMailer/PHPMailer/issues",
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.1.8"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/synchro",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-09T14:55:58+00:00"
         },
         {
             "name": "phpoption/phpoption",

@@ -1,0 +1,5 @@
+name: Submission Module
+description: Give to page id field a number.
+
+type: module
+core_version_requirement: ^8 || ^9
